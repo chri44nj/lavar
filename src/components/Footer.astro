@@ -1,0 +1,76 @@
+---
+---
+
+<footer class="footer">
+    <a href="/">MB</a>
+    <div class="links-container">
+<ul class="nav-links">
+    <li>
+        <h3 class="footer-heading">Navigation</h3>
+    </li>
+    <li>
+        <a href="/about">Om mig</a>
+    </li>
+     <li>
+        <a href="/prices">Forløb & priser</a>
+    </li>
+     <li>
+        <a href="/signup">Book en samtale</a>
+    </li>
+</ul>
+<ul class="some-links">
+    <li>
+        <h3 class="footer-heading">SoMe</h3>
+    </li>
+    <li>
+        <a target="_blank" href="https://www.instagram.com/magnusbjornaa.pt/?igsh=MThtZzhueWJqZ21ldQ%3D%3D&utm_source=qr&fbclid=IwAR2eBo3tf_yjH8dgBZAoL6kEwInyplKbLOl8kKFc3KItHd-4CSJkfdtDX1s">Instagram</a>
+    </li>
+     <li>
+        <a href="/prices">Facebook</a>
+    </li>
+     <li>
+        <a target="_blank" href="https://www.tiktok.com/@magnusbjornaa?_t=8j6jZJqJK1B&_r=1&fbclid=IwAR2eBo3tf_yjH8dgBZAoL6kEwInyplKbLOl8kKFc3KItHd-4CSJkfdtDX1s">TikTok</a>
+    </li>
+</ul>
+</div>
+</footer>
+
+<style>
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 2rem;
+    background-color: var(--accent2);
+}
+
+.links-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-links, .some-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.footer-heading {
+    color: var(--primary);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+a {
+     color: var(--primary);
+      font-weight: bold;
+
+      &:hover {
+       text-decoration: underline;
+      }
+}
+
+</style>
